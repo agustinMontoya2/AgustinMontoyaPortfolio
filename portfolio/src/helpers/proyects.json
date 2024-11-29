@@ -1,0 +1,60 @@
+[
+   {
+    "id": 1,
+      "titulo": "Fellini Bar",
+      "fecha": "oct. 2024",
+      "descripcion": "Fellini Bar es una plataforma web que facilita la gestión de reservas, pedidos y productos en comercio electrónico. Permite a los usuarios realizar pedidos, gestionar reservas y explorar productos, mientras que los administradores pueden gestionar pedidos e inventarios de manera eficiente. Todo está diseñado para ofrecer una experiencia ágil y escalable.",
+      "imagen": "https://res.cloudinary.com/dxpxzcj2i/image/upload/fl_preserve_transparency/v1732834601/felliniPortada_yg9rwz.jpg?_s=public-apps",
+      "link": "https://final-project-blush-gamma.vercel.app/",
+      "tecnologias": [
+        {
+          "nombre": "TypeScript",
+          "icono": "https://imgs.search.brave.com/7SGwBwTdGyRM6ke6bKVnjzR2lNyS--pnq8CnDuqAvG8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni81OTY4LzU5Njgz/ODEucG5nP3NlbXQ9/YWlzX2h5YnJpZA"
+        },
+        {
+          "nombre": "NestJS",
+          "icono": "https://imgs.search.brave.com/_4VUie56Eoz8fKbNKx7-n0npSoYgWlwsCgxLwTlnDoo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/aWNvbi5jb20vZnJl/ZS1pY29uLWRvd25s/b2FkL25lc3Rqc18x/LnN2Zw"
+        },
+        {
+          "nombre": "PostgreSQL",
+          "icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png"
+        },
+        {
+          "nombre": "NextJS",
+          "icono": "https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Mr.Patan",
+      "fecha": "ago. 2024",
+      "link": "https://mr-patan.vercel.app/",
+      "descripcion": "Mr.Patan es una plataforma web diseñada para una veterinaria que permite a los usuarios agendar y cancelar turnos para corte de pelo y consultas veterinarias. Además, los clientes pueden explorar y comprar productos disponibles en el local. Todo está pensado para ofrecer comodidad y facilidad en la gestión de servicios y compras para el bienestar de las mascotas.",
+      "imagen": "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1732837336/Captura_de_pantalla_2024-11-28_204145_hsv3sv.png",
+      "tecnologias": [
+        {
+          "nombre": "TypeScript",
+          "icono": "https://imgs.search.brave.com/7SGwBwTdGyRM6ke6bKVnjzR2lNyS--pnq8CnDuqAvG8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni81OTY4LzU5Njgz/ODEucG5nP3NlbXQ9/YWlzX2h5YnJpZA"
+        },
+        {
+          "nombre": "JavaScript",
+          "icono": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        },
+        {
+          "nombre": "React",
+          "icono": "https://pbs.twimg.com/profile_images/1785867863191932928/EpOqfO6d_400x400.png"
+        },
+        {
+          "nombre": "PostgreSQL",
+          "icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png"
+        },
+        {
+          "nombre": "ExpressJS",
+          "icono": "https://www.manektech.com/storage/developer/1646733543.webp"
+        }
+
+      ]
+    }
+     
+]

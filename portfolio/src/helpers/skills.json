@@ -1,0 +1,115 @@
+{
+    "softskills": [
+    {
+      "title": "Habilidades Técnicas y Trabajo en Equipo",
+      "description": "Como desarrollador full stack, valoro tanto las herramientas y tecnologías que utilizo como las habilidades que me permiten trabajar de manera eficiente en equipo. Me considero una persona con un enfoque práctico y orientado a resultados, siempre buscando soluciones creativas para resolver problemas complejos. La capacidad de adaptarme rápidamente a nuevas tecnologías y entornos es una de mis principales fortalezas."
+    },
+    {
+      "title": "Comunicación y Organización",
+      "description": "Una de mis principales habilidades es la comunicación clara, tanto en trabajos individuales como colaborativos. Esto me permite coordinarme eficientemente con otros miembros del equipo, compartir ideas y adaptarme a diferentes perspectivas. Además, me esfuerzo por gestionar mi tiempo de manera efectiva, lo que me permite cumplir con los objetivos establecidos sin comprometer la calidad."
+    },
+    {
+      "title": "Aprendizaje y Colaboración Continua",
+      "description": "Valoro profundamente el trabajo colaborativo y la retroalimentación constructiva. Me motiva formar parte de equipos dinámicos, donde el aprendizaje continuo sea una prioridad para todos los miembros. Estoy siempre en busca de nuevos desafíos y oportunidades que me permitan crecer y mejorar, tanto como desarrollador como profesional."
+    }
+  ],
+  "techskills": [
+    {
+        "nombre": "Backend",
+    "herramientas": [
+      {
+        "herramienta": "NestJS",
+        "imagen": "https://imgs.search.brave.com/_4VUie56Eoz8fKbNKx7-n0npSoYgWlwsCgxLwTlnDoo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/aWNvbi5jb20vZnJl/ZS1pY29uLWRvd25s/b2FkL25lc3Rqc18x/LnN2Zw"
+      },
+      {
+        "herramienta": "PostgreSQL",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png"
+      },
+      {
+        "herramienta": "ExpressJS",
+        "imagen": "https://www.manektech.com/storage/developer/1646733543.webp"
+      },
+      {
+        "herramienta": "MongoDB",
+        "imagen": "https://www.svgrepo.com/show/331488/mongodb.svg"
+      }
+    ]},
+    {
+        "nombre": "Frontend",
+    "herramientas": [
+      {
+        "herramienta": "React",
+        "imagen": "https://pbs.twimg.com/profile_images/1785867863191932928/EpOqfO6d_400x400.png"
+      },
+      {
+        "herramienta": "NextJS",
+        "imagen": "https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
+      },
+      {
+        "herramienta": "HTML",
+        "imagen": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+      },
+      {
+        "herramienta": "CSS",
+        "imagen": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+      }
+    ]},
+    {
+        "nombre": "Complementos",
+    "herramientas": [
+      {
+        "herramienta": "TypeORM",
+        "imagen": "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png"
+      },
+      {
+        "herramienta": "Auth0",
+        "imagen": "https://cdn.worldvectorlogo.com/logos/auth0.svg"
+      },
+      {
+        "herramienta": "Cloudinary",
+        "imagen": "https://avatars.githubusercontent.com/u/45069436?s=280&v=4"
+      },
+      {
+        "herramienta": "jwt",
+        "imagen": "https://cdn.worldvectorlogo.com/logos/jwt-3.svg"
+      },
+      {
+        "herramienta": "Swagger",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png"
+      },
+      {
+        "herramienta": "Tailwind CSS",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
+      },
+      {
+        "herramienta": "webpack",
+        "imagen": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/webpack-icon.png"
+      },
+      {
+        "herramienta": "Figma",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png"
+      }
+    ]
+  },
+  {
+    "nombre": "Lenguajes",
+"herramientas": [
+  {
+    "herramienta": "JavaScript",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+  },
+  {
+    "herramienta": "TypeScript",
+    "imagen": "https://imgs.search.brave.com/7SGwBwTdGyRM6ke6bKVnjzR2lNyS--pnq8CnDuqAvG8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni81OTY4LzU5Njgz/ODEucG5nP3NlbXQ9/YWlzX2h5YnJpZA"
+  },
+  {
+    "herramienta": "Java",
+    "imagen": "https://cdn-icons-png.flaticon.com/512/226/226777.png"
+  },
+  {
+    "herramienta": "Python",
+    "imagen": "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1732839021/5848152fcef1014c0b5e4967_xof6wp.png"
+  }
+]
+}]
+}

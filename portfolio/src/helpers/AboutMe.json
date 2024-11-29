@@ -1,0 +1,14 @@
+[
+   {
+      "titulo": "Mi trayectoria",
+      "contenido": "Soy un desarrollador Full Stack de Argentina con una gran pasión por resolver problemas y optimizar procesos. Comencé a programar a los 13 años, y aunque exploré diversas áreas de la tecnología, el desarrollo web me cautivó por su dinamismo y su enorme potencial."
+    },
+     {
+      "titulo": "Mi motivación",
+      "contenido": "Lo que más disfruto es ver cómo las soluciones que creo tienen un impacto real, y me apasiona la lógica de programación. Me motiva la posibilidad de crear aplicaciones eficientes y funcionales que respondan a las necesidades de los usuarios."
+    },
+    {
+      "titulo": "Mi meta",
+      "contenido": "Actualmente, busco un equipo donde pueda seguir aprendiendo, aportar mis ideas y seguir creciendo profesionalmente. Valoro profundamente la colaboración, el intercambio de conocimientos y el trabajo en equipo. Estoy siempre en la búsqueda de nuevos desafíos que me permitan seguir mejorando y evolucionando como desarrollador."
+    }
+]
