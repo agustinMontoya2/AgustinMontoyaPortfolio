@@ -1,5 +1,5 @@
 import AboutMe from "./views/AboutMe/AboutMe"
-import Contact from "./views/Contact/Contact"
+// import Contact from "./views/Contact/Contact"
 import Footer from "./views/Footer/Footer"
 import Header from "./views/Header/Header"
 import Proyects from "./views/Proyects/Proyects"
