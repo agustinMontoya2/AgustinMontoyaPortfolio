@@ -65,7 +65,7 @@ function Header() {
     <img src={GithubBlack} alt="GitHub" className='w-10 h-10 dark:hidden'/>
   </a>
     </div>
-    <a href="https://drive.google.com/file/d/1u2K_llvQsguJ6sg0ksYonfzxkB6IxgRw/view" target="_blank">
+    <a href="https://drive.google.com/file/d/1F15NucXNLk9VBGLi1jbrLJ8GcqO-rK8K/view?usp=drive_link" target="_blank">
     <button className="bg-[#FFB800] text-[#121212] px-20 py-2 rounded-md hover:bg-[#e0a600] mt-4" >
   Mira mi CV
 </button></a>

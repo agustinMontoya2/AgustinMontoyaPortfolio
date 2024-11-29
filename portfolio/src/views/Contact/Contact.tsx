@@ -1,4 +1,7 @@
+import { sendMail } from "./sendMail"
+
 function Contact() {
+
   return (
     <div className="h-screen w-full bg-[#FFFFFF] flex items-center flex-col dark:bg-[#121212]">
         <h2 className="text-[44px] font-extrabold text-[#121212] font-montserrat text-center mt-24 dark:text-[#FFFFFF]">Contactate conmigo</h2>
@@ -32,6 +35,7 @@ function Contact() {
 ></textarea>
   </div>
   <button 
+      onClick={sendMail}
       type="submit" 
       className="bg-[#FFB800] text-[#121212] py-1 px-6 rounded-md mt-4 w-[30%]"
     >
