@@ -17,7 +17,7 @@ function Contact() {
     event.preventDefault();
     try {
       if(email.name && email.email && email.message){
-      const response = await sendMail(email);
+      await sendMail(email);
       Swal.fire({
         title: 'Email Enviado con exito',
         icon: 'success',
