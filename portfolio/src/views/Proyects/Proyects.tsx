@@ -47,7 +47,7 @@ function Proyects() {
                 {proyects[currentIndex].titulo}
               </p>
               <p className="font-inter font-extrabold text-[16px] text-[#707070] mt-3 dark:text-[#B0B0B0]">
-                {proyects[currentIndex].fecha}
+                {proyects[currentIndex].fecha}0|
               </p>
               <p className="font-inter font-extrabold text-[16px] text-[#121212] mt-3 text-center dark:text-[#FFFFFF]">
                 {proyects[currentIndex].descripcion}

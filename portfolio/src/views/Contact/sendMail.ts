@@ -1,14 +1,20 @@
-import { Resend } from "resend";
+import { mailInterface } from "../../interfaces/mailInterface";
 
-const resend = new Resend("re_jMBcPdWt_7oXtfFqPWsUadEfeffU6o7EQ");
+const APIURL = import.meta.env.VITE_API_URL;
 
-export async function sendMail() {
-  const data = await resend.emails.send({
-    from: "Acme <onboarding@resend.dev>",
-    to: ["agus7montoya@gmail.com"],
-    subject: "Hello World",
-    html: "<strong>It works!</strong>",
+export async function sendMail(email: mailInterface) {
+  const data = await fetch(`${APIURL}/email`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(email),
   });
-  console.log(data);
-  //   console.log("enviado");
+
+  const json = await data.json();
+
+  if (json.error) {
+    throw json;
+  }
+  return json;
 }

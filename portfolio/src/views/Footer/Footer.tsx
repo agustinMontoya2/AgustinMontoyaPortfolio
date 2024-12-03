@@ -1,8 +1,8 @@
 
 function Footer() {
     return (
-        // <div className="bg-[#E0E0E0] h-[60px] flex flex-row justify-center items-center dark:bg-[#343434]">
-        <div className="bg-[#FFFFFF] h-[60px] flex flex-row justify-center items-center dark:bg-[#121212]">
+        <div className="bg-[#E0E0E0] h-[60px] flex flex-row justify-center items-center dark:bg-[#343434]">
+        {/* <div className="bg-[#FFFFFF] h-[60px] flex flex-row justify-center items-center dark:bg-[#121212]"> */}
           <div className="text-center text-[#121212] font-roboto font-extrabold text-[15px] flex justify-between w-[50%] dark:text-[#FFFFFF]">
             <p className="">© 2024 Agustín Montoya</p>
             <div className="">

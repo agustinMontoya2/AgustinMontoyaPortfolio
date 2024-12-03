@@ -1,6 +1,60 @@
+import React, { ChangeEvent, useState } from "react";
 import { sendMail } from "./sendMail"
+import { mailInterface } from "../../interfaces/mailInterface";
+import Swal from "sweetalert2";
 
 function Contact() {
+  const emailInitialState = {
+    name: "",
+    email: "",
+    message: "",
+  }
+  const [email, setEmail] = useState<mailInterface>(
+    emailInitialState
+  );
+  
+  const handleSubmit = async (event: React.FormEvent< HTMLFormElement>) => {
+    event.preventDefault();
+    try {
+      if(email.name && email.email && email.message){
+      const response = await sendMail(email);
+      Swal.fire({
+        title: 'Email Enviado con exito',
+        icon: 'success',
+        timer: 1000,
+    });
+      setEmail(emailInitialState);
+      }
+      else {
+        Swal.fire({
+          icon: 'error',
+                      title: 'Todos los campos son requeridos',
+                      toast: true,
+                      position: 'top-end',
+                      showConfirmButton: false,
+                      timer: 2500,
+                      timerProgressBar: true,
+        })}
+    } catch (error: any) {
+      Swal.fire({
+        icon: 'error',
+                    title: 'Error al enviar el email, por favor intente nuevamente',
+                    toast: true,
+                    position: 'top-end',
+                    showConfirmButton: false,
+                    timer: 2500,
+                    timerProgressBar: true,
+      })
+    }
+  }
+
+  const handleChange = (e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setEmail((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  }
 
   return (
     <div className="h-screen w-full bg-[#FFFFFF] flex items-center flex-col dark:bg-[#121212]">
@@ -13,34 +67,44 @@ function Contact() {
       <p className="text-[#FFB800] font-montserrat font-medium text-[20px] text-center mb-8">¡Será un placer colaborar!</p>
 </div>
 <div className="flex flex-col items-center">
+    <form onSubmit={handleSubmit} className="w-[100%] flex flex-col items-center">
   <div className="w-[60%]">
   <p className="text-[#121212] font-montserrat font-semibold text-[20px] text-center dark:text-[#FFFFFF]">¿Como te llamas?</p>
-      <input 
+      <input
+      onChange={handleChange} 
+      value={email.name}
+        name="name"
         type="text" 
-        className="bg-[#F5F5F5] border-[#FFB800] border-[1px] py-2 px-4 rounded-md mt-2 mb-4 w-[100%] text-white dark:bg-[#1a1a1a]"
+        className="bg-[#F5F5F5] border-[#FFB800] border-[1px] py-2 px-4 rounded-md mt-2 mb-4 w-[100%] text-[#121212] dark:bg-[#1a1a1a] dark:text-[#FFFFFF]"
       />
   </div>
   <div className="w-[60%]">
   <p className="text-[#121212] font-montserrat font-semibold text-[20px] text-center dark:text-[#FFFFFF]">¿Cual es tu correo?</p>
-      <input 
-        type="text" 
-        className="bg-[#F5F5F5] border-[#FFB800] border-[1px] py-2 px-4 rounded-md mt-2 mb-4 w-[100%] text-white dark:bg-[#1a1a1a]"
+      <input
+      value={email.email}
+      onChange={handleChange} 
+        name="email"
+        type="email" 
+        className="bg-[#F5F5F5] border-[#FFB800] border-[1px] py-2 px-4 rounded-md mt-2 mb-4 w-[100%] text-[#121212] dark:bg-[#1a1a1a] dark:text-[#FFFFFF]"
       />
   </div>
   <div className="w-[60%]">
   <p className="text-[#121212] font-montserrat font-semibold text-[20px] text-center dark:text-[#FFFFFF]">¿Cual es tu mensaje?</p>
       
       <textarea 
-  className="resize-none bg-[#f5f5f5] border border-[#FFB800] text-white p-2 rounded-md mt-2 w-[100%] h-32 dark:bg-[#1a1a1a]" 
+      value={email.message}
+      onChange={handleChange} 
+      name="message"
+  className="resize-none bg-[#f5f5f5] border border-[#FFB800] text-[#121212] p-2 rounded-md mt-2 w-[100%] h-32 dark:bg-[#1a1a1a] dark:text-[#FFFFFF]" 
 ></textarea>
   </div>
   <button 
-      onClick={sendMail}
       type="submit" 
       className="bg-[#FFB800] text-[#121212] py-1 px-6 rounded-md mt-4 w-[30%]"
     >
       Enviar
     </button>
+</form>
 </div>
       </div>
     </div>
