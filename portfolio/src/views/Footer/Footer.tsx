@@ -1,11 +1,11 @@
 
 function Footer() {
     return (
-        <div className="bg-[#E0E0E0] h-[60px] flex flex-row justify-center items-center dark:bg-[#343434]">
+        <div className="bg-[#E0E0E0] h-fit w-full flex flex-row justify-center items-center dark:bg-[#343434] sm:h-[60px]">
         {/* <div className="bg-[#FFFFFF] h-[60px] flex flex-row justify-center items-center dark:bg-[#121212]"> */}
-          <div className="text-center text-[#121212] font-roboto font-extrabold text-[15px] flex justify-between w-[50%] dark:text-[#FFFFFF]">
+          <div className="text-center text-[#121212] font-roboto font-extrabold text-[9px] flex justify-evenly w-[100%] dark:text-[#FFFFFF] sm:text-[12px]">
             <p className="">© 2024 Agustín Montoya</p>
-            <div className="">
+            <div className="flex flex-col sm:flex-row">
               <a
                 href="https://www.linkedin.com/in/agustin-montoya-26083031a/"
                 target="_blank"
@@ -14,7 +14,6 @@ function Footer() {
               >
                 LinkedIn
               </a>
-              |
               <a
                 href="https://github.com/agustinMontoya2"
                 target="_blank"
@@ -23,7 +22,7 @@ function Footer() {
               >
                 GitHub
               </a>
-              |
+              
               <a
                 href="https://wa.me/5491138717699"
                 target="_blank"

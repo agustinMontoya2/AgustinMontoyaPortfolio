@@ -27,7 +27,7 @@ function Header() {
   }
 
   return (
-    <div className='h-screen w-full bg-[#FFFFFF] dark:bg-[#121212] flex items-center flex-col justify-center'>
+    <div className='h-screen w-full bg-[#FFFFFF] flex items-center flex-col justify-center dark:bg-[#121212]'>
       <div
         className={`absolute top-4 right-6 w-14 h-6 flex items-center rounded-full p-1 cursor-pointer ${
           theme === 'dark' ? 'bg-[#FFB800]' : 'bg-gray-300'
@@ -40,7 +40,7 @@ function Header() {
           }`}
         ></div>
       </div>
-    <div className="flex justify-evenly w-full h-full items-center flex-col sm:flex-row">
+    <div className="flex justify-between w-4/6 h-full items-center">
     <div className='justify-center flex flex-col'>
     <p
   className="text-[46px] font-extrabold text-[#FFB800] font-montserrat overflow-hidden whitespace-nowrap border-r-2 border-[#FFB800] animate-escribir"
@@ -52,7 +52,7 @@ function Header() {
     Soy Agustín Montoya
   </p>
   </div>
-  <img src={myImage} alt='' className='w-48 rounded-2xl w-48'/>
+  <img src={myImage} alt='' className='w-48 rounded-2xl'/>
   </div>
   <div className='flex items-center flex-col mb-24 -mt-56'>
     <div className='mt-10 flex w-60 justify-evenly'>

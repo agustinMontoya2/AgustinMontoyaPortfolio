@@ -2,6 +2,7 @@ import React, { ChangeEvent, useState } from "react";
 import { sendMail } from "./sendMail"
 import { mailInterface } from "../../interfaces/mailInterface";
 import Swal from "sweetalert2";
+import { BarLoader} from "react-spinners";
 
 function Contact() {
   const emailInitialState = {
@@ -105,14 +106,14 @@ function Contact() {
   </div>
   <button 
       type="submit" disabled={loading}
-      className="bg-[#FFB800] text-[#121212] py-1 px-6 rounded-md mt-4 w-[30%]"
+      className="bg-[#FFB800] text-[#121212] py-1 px-6 rounded-md mt-4 w-[30%] flex justify-center items-center"
     >
       {loading ? 'Enviando...' : 'Enviar'}
+      {loading && < BarLoader  color={"#121212"} width={50} className="ml-4"/>} 
     </button>
 </form>
 </div>
       </div>
-    {loading && <div className="loading-spinner text-[#121212] dark:text-[#FFFFFF] mt-5">Cargando...</div>} {/* Muestra el indicador de carga */}
     </div>
   )
 }

@@ -44,7 +44,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="">
       <div ref={(el) => el && (sectionsRef.current[0] = el)}>
         <Header />
       </div>

@@ -53,7 +53,7 @@ function Proyects() {
                 {proyects[currentIndex].descripcion}
               </p>
   
-              <div className="flex mt-6 space-x-6">
+              <div className="flex flex-wrap mt-6 space-x-6">
                 {proyects[currentIndex].tecnologias.map((item, index) => (
                   <img src={item.icono} alt="" className="h-10 w-10" key={index} />
                 ))}
