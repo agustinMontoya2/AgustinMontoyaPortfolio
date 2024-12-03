@@ -12,11 +12,13 @@ function Contact() {
   const [email, setEmail] = useState<mailInterface>(
     emailInitialState
   );
+  const [loading, setLoading] = useState(false);
   
   const handleSubmit = async (event: React.FormEvent< HTMLFormElement>) => {
     event.preventDefault();
     try {
       if(email.name && email.email && email.message){
+        setLoading(true);
       await sendMail(email);
       Swal.fire({
         title: 'Email Enviado con exito',
@@ -45,6 +47,9 @@ function Contact() {
                     timer: 2500,
                     timerProgressBar: true,
       })
+    }
+    finally {
+      setLoading(false);
     }
   }
 
@@ -99,14 +104,15 @@ function Contact() {
 ></textarea>
   </div>
   <button 
-      type="submit" 
+      type="submit" disabled={loading}
       className="bg-[#FFB800] text-[#121212] py-1 px-6 rounded-md mt-4 w-[30%]"
     >
-      Enviar
+      {loading ? 'Enviando...' : 'Enviar'}
     </button>
 </form>
 </div>
       </div>
+    {loading && <div className="loading-spinner text-[#121212] dark:text-[#FFFFFF] mt-5">Cargando...</div>} {/* Muestra el indicador de carga */}
     </div>
   )
 }
