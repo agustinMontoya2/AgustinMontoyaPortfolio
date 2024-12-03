@@ -7,7 +7,7 @@ async function bootstrap() {
 
   app.enableCors({
     origin: [
-      'https://final-project-blush-gamma.vercel.app',
+      'https://agustin-montoya-portfolio.vercel.app/',
       'http://localhost:5173',
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
