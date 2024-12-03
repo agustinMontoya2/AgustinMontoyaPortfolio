@@ -62,7 +62,7 @@ function App() {
       </div>
       <div ref={(el) => el && (sectionsRef.current[5] = el)}>
         <Footer />
-      </div>
+       </div> 
     </div>
   );
 }

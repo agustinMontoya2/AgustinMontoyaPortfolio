@@ -4,7 +4,7 @@ import downArrowLight from '../../assets/down-arrowLight.png'
 function Skills() {
   return (
       <div className="h-screen w-full bg-[#E0E0E0] flex items-center flex-col dark:bg-[#343434]">
-        <h2 className="text-[44px] font-extrabold text-[#121212] font-montserrat mt-24 dark:text-[#FFFFFF]">Mis habilidades</h2>
+        <h2 className="text-[34px] sm:text-[44px] font-extrabold text-[#121212] font-montserrat mt-24 dark:text-[#FFFFFF]">Mis habilidades</h2>
         <div className="w-4/6 flex flex-row justify-between h-4/6 mt-24">
         <div className='w-[45%] flex flex-col justify-center'>
             {

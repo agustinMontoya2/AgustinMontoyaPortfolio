@@ -40,15 +40,15 @@ function Header() {
           }`}
         ></div>
       </div>
-    <div className="flex justify-evenly w-full h-full items-center flex-col sm:flex-row">
+    <div className="flex justify-center md:justify-evenly w-full h-full items-center flex-col md:flex-row">
     <div className='justify-center flex flex-col'>
     <p
-  className="text-[46px] font-extrabold text-[#FFB800] font-montserrat overflow-hidden whitespace-nowrap border-r-2 border-[#FFB800] animate-escribir"
+  className="text-[1.8rem] md:text-[2rem]  font-extrabold text-[#FFB800] font-montserrat overflow-hidden whitespace-nowrap border-r-2 border-[#FFB800] animate-escribir"
   style={{ width:"fit-content", display: "inline-block" }}
 >
     Hola mundo!
   </p>
-  <p className="text-[50px] font-extrabold text-[#121212] font-montserrat dark:text-[#FFFFFF]">
+  <p className="text-[2rem] md:text-[2.3rem] font-extrabold text-[#121212] font-montserrat dark:text-[#FFFFFF]">
     Soy Agustín Montoya
   </p>
   </div>
