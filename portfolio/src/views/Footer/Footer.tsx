@@ -3,7 +3,7 @@ function Footer() {
     return (
         <div className="bg-[#E0E0E0] h-fit w-full flex flex-row justify-center items-center dark:bg-[#343434] sm:h-[60px]">
         {/* <div className="bg-[#FFFFFF] h-[60px] flex flex-row justify-center items-center dark:bg-[#121212]"> */}
-          <div className="text-center text-[#121212] font-roboto font-extrabold text-[9px] flex justify-evenly w-[100%] dark:text-[#FFFFFF] sm:text-[12px]">
+          <div className="text-center text-[#121212] font-roboto font-extrabold text-[11px] flex justify-evenly items-center w-[100%] dark:text-[#FFFFFF] sm:text-[12px]">
             <p className="">© 2024 Agustín Montoya</p>
             <div className="flex flex-col sm:flex-row">
               <a

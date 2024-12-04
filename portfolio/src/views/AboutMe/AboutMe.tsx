@@ -5,7 +5,7 @@ function AboutMe() {
   return (
 
     <div className="h-screen w-full bg-[#E0E0E0] flex items-center justify-between flex-col dark:bg-[#343434]">
-        <h2 className="text-[34px] sm:text-[44px] font-extrabold text-[#121212] dark:text-[#FFFFFF] font-montserrat mt-[10%] md:mt-[5%] lg:mt-[3%]">Un poco sobre mi</h2>
+        <h2 className="text-[34px] sm:text-[44px] font-extrabold text-[#121212] font-montserrat mt-12 dark:text-[#FFFFFF]">Un poco sobre mi</h2>
         <div className="w-[90%] md:w-4/6 flex flex-col justify-center h-4/6">
             {
             aboutMe.map( (item, index) => (

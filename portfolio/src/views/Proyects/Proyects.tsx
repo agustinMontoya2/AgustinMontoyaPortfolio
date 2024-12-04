@@ -30,11 +30,11 @@ function Proyects() {
     }, []);
   
     return (
-      <div className="h-screen w-full bg-[#FFFFFF] flex items-center flex-col dark:bg-[#121212]">
-        <h2 className="text-[34px] sm:text-[44px] font-extrabold text-[#121212] font-montserrat mt-24 dark:text-[#FFFFFF]">
+      <div className="h-screen w-full bg-[#FFFFFF] flex items-center justify-center flex-col dark:bg-[#121212]">
+        <h2 className="text-[34px] sm:text-[44px] font-extrabold text-[#121212] font-montserrat mt-12 dark:text-[#FFFFFF]">
           Mis proyectos
         </h2>
-        <div className="px-8 w-4/6 h-5/6 bg-[#E0E0E0] mt-32 rounded-3xl flex flex-row items-center justify-center dark:bg-[#343434]">
+        <div className="px-8 w-5/6 sm:w-4/6 h-5/6 bg-[#E0E0E0] mt-32 rounded-3xl flex flex-row items-center justify-center dark:bg-[#343434]">
 
           <button
               onClick={handlePrev}
@@ -55,7 +55,7 @@ function Proyects() {
                 {proyects[currentIndex].descripcion}
               </p>
   
-              <div className="flex flex-wrap mt-6 space-x-6">
+              <div className="flex flex-wrap mt-6 space-x-1 sm:space-x-6">
                 {proyects[currentIndex].tecnologias.map((item, index) => (
                   <img src={item.icono} alt="" className="h-10 w-10" key={index} />
                 ))}
@@ -64,7 +64,7 @@ function Proyects() {
             <img
               src={proyects[currentIndex].imagen}
               alt=""
-              className="h-40 w-80 rounded-xl hidden lg:block"
+              className="h-40 w-80 rounded-xl hidden sm:block"
             />
           </div>
   </a>
@@ -78,7 +78,7 @@ function Proyects() {
             </button>
             
           </div>
-          <div className="flex justify-center mt-4">
+          <div className="flex justify-center mt-4 mb-4">
   {proyects.map((_, index) => (
     <div
       key={index}
@@ -89,7 +89,7 @@ function Proyects() {
     ></div>
   ))}
 </div>
-          <div className="mt-[9%]">
+          <div className="">
           <img
     src={downArrowLight} 
     alt="Flecha"
