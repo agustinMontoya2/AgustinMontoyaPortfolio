@@ -53,7 +53,28 @@
           "nombre": "ExpressJS",
           "icono": "https://www.manektech.com/storage/developer/1646733543.webp"
         }
-
+      ]
+    },
+    {
+      "id": 1,
+      "titulo": "RussNailss",
+      "fecha": "dic. 2024",
+      "link": "https://russnailss.vercel.app/", 
+      "descripcion": "RussNailss es una plataforma en línea dedicada a mostrar una variedad de diseños de uñas y permitir a los usuarios contactarse directamente con la manicurista para agendar citas. Los usuarios pueden explorar los diferentes estilos de uñas, obtener detalles y ponerse en contacto con la manicurista a través de un enlace directo.",
+      "imagen": "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1737294128/Captura_de_pantalla_2025-01-19_104028_s9ifou.png",
+      "tecnologias": [
+        {
+          "nombre": "TypeScript",
+          "icono": "https://imgs.search.brave.com/7SGwBwTdGyRM6ke6bKVnjzR2lNyS--pnq8CnDuqAvG8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni81OTY4LzU5Njgz/ODEucG5nP3NlbXQ9/YWlzX2h5YnJpZA"
+        },
+        {
+          "nombre": "JavaScript",
+          "icono": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        },
+        {
+          "nombre": "React",
+          "icono": "https://pbs.twimg.com/profile_images/1785867863191932928/EpOqfO6d_400x400.png"
+        }
       ]
     }
      

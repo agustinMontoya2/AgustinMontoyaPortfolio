@@ -63,7 +63,7 @@ function Proyects() {
             </div>
             <img
               src={proyects[currentIndex].imagen}
-              alt=""
+              alt={proyects[currentIndex].titulo}
               className="h-40 w-80 rounded-xl hidden sm:block"
             />
           </div>
