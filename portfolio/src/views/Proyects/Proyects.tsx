@@ -34,13 +34,13 @@ function Proyects() {
         <h2 className="text-[34px] sm:text-[44px] font-extrabold text-[#121212] font-montserrat mt-12 dark:text-[#FFFFFF]">
           Mis proyectos
         </h2>
-        <div className="px-8 w-5/6 sm:w-4/6 h-5/6 bg-[#E0E0E0] mt-32 rounded-3xl flex flex-row items-center justify-center dark:bg-[#343434]">
+        <div className="px-4 w-5/6 sm:w-4/6 h-5/6 bg-[#E0E0E0] mt-32 rounded-3xl flex flex-row items-center justify-center dark:bg-[#343434]">
 
           <button
               onClick={handlePrev}
               className=""
             >
-              <img src={leftArrow} alt="" className="w-36"/>
+              <img src={leftArrow} alt="" className="min-w-8"/>
             </button>
             <a href={proyects[currentIndex].link} target="_blank">
           <div key={proyects[currentIndex].id} className="flex items-center justify-evenly flex-col-reverse w-full ">
@@ -51,7 +51,7 @@ function Proyects() {
               <p className="font-inter font-extrabold text-[16px] text-[#707070] mt-3 dark:text-[#B0B0B0]">
                 {proyects[currentIndex].fecha}
               </p>
-              <p className="font-inter font-extrabold text-[16px] text-[#121212] mt-3 text-center dark:text-[#FFFFFF]">
+              <p className="font-inter font-extrabold text-[16px] text-[#121212] mt-3 w-4/5 text-center dark:text-[#FFFFFF]">
                 {proyects[currentIndex].descripcion}
               </p>
   
@@ -74,7 +74,7 @@ function Proyects() {
               onClick={handleNext}
               className=""
             >
-              <img src={rightArrow} alt="" className="w-20"/>
+              <img src={rightArrow} alt="" className="min-w-8"/>
             </button>
             
           </div>
