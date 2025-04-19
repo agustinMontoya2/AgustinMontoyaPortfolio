@@ -56,7 +56,29 @@
       ]
     },
     {
-      "id": 1,
+      "id": 3,
+      "titulo": "Mr.Patan 2.0",
+      "fecha": "abr. 2024",
+      "link": "https://mr-patan-vet.vercel.app/inicio",
+      "descripcion": "Mr.Patan 2.0 es una evolución del proyecto original, desarrollada completamente desde el frontend y utilizando LocalStorage para gestionar datos de manera realista. Esta versión simula una experiencia completa para los usuarios: permite agendar y cancelar turnos, registrar mascotas, y explorar productos como si se tratara de una aplicación real. Todo el flujo fue diseñado para reflejar el comportamiento de una plataforma conectada, pero sin necesidad de un backend.",
+      "imagen": "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1745084713/Captura_de_pantalla_2025-04-19_144450_llgrmn.png",
+      "tecnologias": [
+        {
+          "nombre": "TypeScript",
+          "icono": "https://imgs.search.brave.com/7SGwBwTdGyRM6ke6bKVnjzR2lNyS--pnq8CnDuqAvG8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni81OTY4LzU5Njgz/ODEucG5nP3NlbXQ9/YWlzX2h5YnJpZA"
+        },
+        {
+          "nombre": "JavaScript",
+          "icono": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        },
+        {
+          "nombre": "NextJS",
+          "icono": "https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
+        }
+      ]
+    },
+    {
+      "id": 4,
       "titulo": "RussNailss",
       "fecha": "dic. 2024",
       "link": "https://russnailss.vercel.app/", 

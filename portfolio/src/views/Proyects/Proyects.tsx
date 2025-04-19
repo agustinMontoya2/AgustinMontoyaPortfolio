@@ -23,7 +23,7 @@ function Proyects() {
     useEffect(() => {
       const intervalId = setInterval(() => {
         handleNext();
-      }, 17000); // 5000 milisegundos = 5 segundos
+      }, 25000); // 5000 milisegundos = 5 segundos
   
       // Limpiar el intervalo cuando el componente se desmonte
       return () => clearInterval(intervalId);
@@ -47,9 +47,6 @@ function Proyects() {
             <div className="flex flex-col items-center w-full ms:w-1/3">
               <p className="font-inter font-extrabold text-[16px] text-[#606060] dark:text-[#E0E0E0]">
                 {proyects[currentIndex].titulo}
-              </p>
-              <p className="font-inter font-extrabold text-[16px] text-[#707070] mt-3 dark:text-[#B0B0B0]">
-                {proyects[currentIndex].fecha}
               </p>
               <p className="font-inter font-extrabold text-[16px] text-[#121212] mt-3 w-4/5 text-center dark:text-[#FFFFFF]">
                 {proyects[currentIndex].descripcion}
