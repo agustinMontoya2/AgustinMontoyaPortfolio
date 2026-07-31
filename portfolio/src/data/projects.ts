@@ -32,16 +32,16 @@ export const PROJECTS: Project[] = [
     imageAlt: "Imagen de demostración de la aplicación Fellini Bar",
   },
   {
-    tag: "PROYECTO CLIENTE · PLATAFORMA WEB",
-    title: "RussNailss",
-    description:
-      "Plataforma en línea para mostrar diseños de uñas y permitir a los usuarios contactarse directamente con la manicurista para agendar citas. Exploración de estilos con enlace de contacto directo.",
-    tech: ["TypeScript", "React"],
-    type: "Frontend",
-    image:
-      "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1737294128/Captura_de_pantalla_2025-01-19_104028_s9ifou.png",
-    imageAlt: "Imagen de demostración de la plataforma RussNailss",
-  },
+  tag: "PROYECTO CLIENTE · LANDING PAGE",
+  title: "Team Rayo",
+  description:
+    "Landing page para un gimnasio de boxeo desarrollada con React y TypeScript. Arquitectura basada en componentes desacoplados por sección, con scroll suave entre anclas, integración de Google Maps embed y redirección directa a WhatsApp con mensaje prearmado vía deep link.",
+  tech: ["React", "TypeScript", "Tailwind CSS"],
+  type: "Frontend",
+  image:
+    "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1785486242/Captura_de_pantalla_2026-07-31_052148_wvxm6v.png",
+  imageAlt: "Landing page del gimnasio de boxeo Team Rayo",
+},
   {
     tag: "EXPERIENCIA PROFESIONAL · BACKEND",
     title: "Arquitectura Distribuida",
